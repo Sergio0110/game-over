@@ -1,26 +1,14 @@
-@font-face {
-  font-family: Arial;
-  src: local('Arial'), local('Arial'), 
-  url('../fonts/Arial-BoldMT.woff2') format(woff2),
-      url('../fonts/Arial-BoldMT.woff') format(woff);
-  font-weight: 900;
-}
-@font-face {
-  font-family: Arial;
-  src: local('Arial'), local('Arial'), 
-  url('../fonts/ArialMT.woff2') format(woff2),
-      url('../fonts/ArialMT.woff') format(woff);
-  font-weight: 400;
-}
 
 * {
   box-sizing:border-box;
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   background-color: #1B1A1B;
   color: #FFFFFF;
+  
 }
 
 .wrapper {
@@ -36,6 +24,7 @@ height: 6632px;
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: auto 768px;
+    padding-bottom: 34px;
 }
 
 .header-title {
@@ -45,7 +34,7 @@ height: 6632px;
   font-style: normal;
   font-weight: 900;
   line-height: 100%;
-  letter-spacing: -px;
+  letter-spacing: -1px;
 }
 
 .title-small {
@@ -58,6 +47,44 @@ height: 6632px;
   padding-left: 86px;
 }
 
-.imgchel {
-  
+.halls {
+  color: #FFF;
+  text-align: center;
+  font-family: Arial;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.vibes {
+  background-image: url('../img/80’S\ VIBES.jpg');
+  max-width: 1180px;
+  height: 710px;
+  margin-bottom: 60px;
+}
+
+.title-vibes {
+  text-align: center;
+  font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; 
+  text-transform: uppercase;
+  padding-top: 275px;
+}
+
+.star-wars {
+  background-image: url('../img/STAR\ WARS.jpg');
+  max-width: 1180px;
+  height: 710px;
+}
+
+.wild-west {
+  background-image: url('../img/WILD\ WEST.jpg');
+  max-width: 1180px;
+  height: 710px;
 }
